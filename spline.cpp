@@ -22,7 +22,7 @@ struct sSpline
 		p2 = 2;
 		p3 = 3;
 
-
+		//hey
 		t = t - (int)t;
 
 		float tt = t * t;
