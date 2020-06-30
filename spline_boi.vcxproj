@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="b_spline.h" />
+    <ClInclude Include="spline_basic.h" />
     <ClInclude Include="olcConsoleGameEngine.h" />
   </ItemGroup>
   <ItemGroup>

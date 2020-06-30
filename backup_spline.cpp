@@ -1,10 +1,9 @@
 #include <iostream>
 #include <string>
 using namespace std;
-//#include "spline_basic.h"
-#include "olcConsoleGameEngine.h"
+#include "spline_basic.h"
 #include "b_spline.h"
-
+#include "olcConsoleGameEngine.h"
 
 
 
@@ -18,25 +17,23 @@ public:
 
 private:
 	bSpline path;
+	bSpline k;
 	int nSelectedPoint = 0;
 
 protected:
 	// Called by olcConsoleGameEngine
 	virtual bool OnUserCreate()
 	{
-		path.points = { { 10, 41 },{ 30, 61 },{ 50, 61 },{ 70, 41 },{90, 21} };
-		path.k = 4;
+		path.points = { { 10, 41 },{ 30, 61 },{ 50, 61 },{ 70, 41 },{90, 21},{110, 21} };
 		return true;
 	}
 
 	// Called by olcConsoleGameEngine
 	virtual bool OnUserUpdate(float fElapsedTime)
 	{
-		
-		
 		// Clear Screen
 		Fill(0, 0, ScreenWidth(), ScreenHeight(), L' ');
-		
+
 		// Handle input
 		if (m_keys[L'X'].bReleased)
 		{
@@ -63,18 +60,16 @@ protected:
 
 		if (m_keys[VK_DOWN].bHeld)
 			path.points[nSelectedPoint].y += 30.0f * fElapsedTime;
-		
+
 
 		// Draw Spline
-		//for (float t = 0; t < knot vector; t += 0.005f)
-		for (float t = 0; t < 8; t += 0.005f)
+		//for (float t = 0; t < (float)path.points.size(); t += 0.005f)
+		for (float t = 0; t < 1; t += 0.005f)
 		{
-			sPoint2D pos = path.GetSplinePoint(t, path.getsize() + path.k + 1);
+			sPoint2D pos = path.GetSplinePoint(t);
 			Draw(pos.x, pos.y);
-			
 		}
 
-		
 		// Draw Control Points
 		for (int i = 0; i < path.points.size(); i++)
 		{
@@ -85,7 +80,7 @@ protected:
 		// Highlight control point
 		Fill(path.points[nSelectedPoint].x - 1, path.points[nSelectedPoint].y - 1, path.points[nSelectedPoint].x + 2, path.points[nSelectedPoint].y + 2, PIXEL_SOLID, FG_YELLOW);
 		DrawString(path.points[nSelectedPoint].x, path.points[nSelectedPoint].y, to_wstring(nSelectedPoint));
-		
+
 		return true;
 	}
 };

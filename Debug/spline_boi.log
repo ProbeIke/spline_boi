@@ -1,18 +1,20 @@
 ﻿  spline.cpp
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(80,23): warning C4018: '>=': signed/unsigned mismatch
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(109,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(109,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(113,21): warning C4018: '<': signed/unsigned mismatch
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(115,92): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(115,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(115,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(115,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(116,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(116,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(120,143): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(120,108): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(120,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(120,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(121,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(121,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\b_spline.h(58,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\b_spline.h(60,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(44,23): warning C4018: '>=': signed/unsigned mismatch
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(73,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(73,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(79,21): warning C4018: '<': signed/unsigned mismatch
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(81,92): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(81,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(81,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(81,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(82,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(82,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(86,143): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(86,108): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(86,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(86,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(87,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+F:\Texas Drive\Software Dev\spline_boi\spline_boi\spline.cpp(87,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   spline_boi.vcxproj -> F:\Texas Drive\Software Dev\spline_boi\Debug\spline_boi.exe

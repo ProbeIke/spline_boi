@@ -23,5 +23,11 @@
     <ClInclude Include="olcConsoleGameEngine.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="spline_basic.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="b_spline.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
